@@ -7,7 +7,8 @@
     color: $mainColor;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
+    transition: all 2s ease;
 
     .wrapper{
         padding: 10px 30px;
@@ -24,12 +25,16 @@
                 font-weight: 700;
                 text-decoration: none;
                 color: inherit;
-                margin-right: 35px;
+                margin-right: 40px;
             }
-            .itenContainer{
+            .itemContainer{
                 display: flex;
                 align-items: center;
-                margin-left: 25px;
+                margin-left: 30px;
+                .icon{
+                    font-size: 18px;
+                    margin-right: 5px;
+                }
             }
             span{
                 font-size: 15px;
