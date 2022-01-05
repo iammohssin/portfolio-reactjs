@@ -1,4 +1,6 @@
 import "./topbar.scss"
+import PersonIcon from '@mui/icons-material/Person';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 
@@ -9,9 +11,11 @@ export default function Topbar({menuOpen , setMenuOpen}) {
             <div className="left">
                 <a href="#intro" className="logo">genius.</a>
                 <div className="itenContainer">
+                <PersonIcon/>
                 <span>+92 323 1411480</span>
                 </div>
                 <div className="itenContainer">
+                    <EmailIcon/>
                 <span>muhsanjavaid@gmail.com</span>
                 </div>
             </div>
